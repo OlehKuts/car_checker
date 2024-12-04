@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/car_checker/static/css/main.8b32ece3.css",
+    "main.js": "/car_checker/static/js/main.5d82b60c.js",
+    "index.html": "/car_checker/index.html",
+    "main.8b32ece3.css.map": "/car_checker/static/css/main.8b32ece3.css.map",
+    "main.5d82b60c.js.map": "/car_checker/static/js/main.5d82b60c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b32ece3.css",
+    "static/js/main.5d82b60c.js"
+  ]
+}
