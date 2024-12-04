@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Zilla+Slab:300,400");
+
+body {
+  background-color: #303030;
+  color: white;
+}
+.car_line {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.car_line div {
+    text-align: center;
+    width: 30%;
+    border-right: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+    padding: 2px
+}
+#section {
+    width: 40px
+}
+.noCarAvailable {
+    font-size: 2rem;
+}
+@media (max-width: 675px) {
+ 
+.searchLine {
+margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .frame {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.6);
+    color: #497081;
+    font-family: "zilla slab", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.9rem;
+  }
+
+  .list {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 1rem 1rem 0.5rem rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+
+  .list .head {
+    padding: 10px 0;
+    margin: 0 30px;
+    border-bottom: 1px solid rgba(100, 58, 122, 0.5);
+  }
+
+  .list .title {
+    font-family: "fredericka the great", cursive;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(100, 58, 122, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+ 
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(5rem);
+    }
+  }
+  button {
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(100, 58, 122, 0.8);
+    width: 8rem;
+    border-radius: 2rem;
+    transition-duration: 0.4s;
+    height: 3.2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  input {
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(100, 58, 122, 0.8);
+    width: 60%;
+    border-radius: 1rem;
+    transition-duration: 0.4s;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 0.25rem;
+    padding: 1.5px;
+  }
+
+  button:hover {
+    background-color: rgba(100, 58, 122, 0.8);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  input:hover {
+    background-color: gainsboro;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  svg:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  svg {
+    cursor: pointer;
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 340;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+}
