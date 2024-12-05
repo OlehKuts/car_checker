@@ -16,7 +16,7 @@ export const App = () => {
       <div className="list">
         <div className="head">
           <div className="title">
-           <div>Cars - Huzara 8</div>
+           <div>Parking</div>
            <div>
 </div>
           </div>
