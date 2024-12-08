@@ -78,7 +78,11 @@ margin-top: 20px;
     flex-direction: row;
     justify-content: center;
   }
-
+#authorizedIcon svg{
+  padding-bottom: 0;
+  margin-left: 5px;
+  /* margin-top: 10px; */
+}
  
   @keyframes slide-up {
     0% {
@@ -87,17 +91,17 @@ margin-top: 20px;
     }
   }
   button {
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: white;
     color: black;
     border: 1px solid rgba(100, 58, 122, 0.8);
-    width: 8rem;
-    border-radius: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
     transition-duration: 0.4s;
-    height: 3.2rem;
-    margin: 0.5rem;
-    font-weight: bold;
+    height: 2.2rem;
+    margin: 0.3rem;
     cursor: pointer;
+    padding: 0.2rem;
   }
 
   input {
