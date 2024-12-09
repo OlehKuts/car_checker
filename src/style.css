@@ -13,11 +13,16 @@ body {
     text-align: center;
     width: 30%;
     border-right: 1px solid dimgray;
-    border-bottom: 1px solid dimgray;
-    padding: 2px
+    padding: 3px 0
 }
-#section {
-    width: 40px
+#section, #section_2 {
+    width: 30px
+}
+#section_3, #section_4{
+  width: 50px;
+}
+#section_4 {
+  font-size: 0.9rem;
 }
 .noCarAvailable {
     font-size: 2rem;
@@ -25,21 +30,21 @@ body {
 @media (max-width: 675px) {
  
 .searchLine {
-margin: 0 auto;
+margin: 10px auto 0 auto;
 display: flex;
 justify-content: center;
-margin-top: 20px;
 }
 .container {
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 10px 20px;
     background-color: antiquewhite;
     color: black;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 0px;
+    /* border: 1px solid red */
   }
   .frame {
     display: flex;
