@@ -27,7 +27,9 @@ export const CarItem = ({ car, isAuth, idx }) => {
           <Icon name="hatchbackCar" color={color} size="30px" />
         </div>
         {isAuth ? (
-          <div id="section_4">{fee > 0 ? `${fee}` : `2-е авто`}</div>
+          <div id={fee > 0 ? "section_4" : "secondAuto"}>
+            {fee > 0 ? `${fee}` : `2-е авто`}
+          </div>
         ) : null}
       </div>
     </>

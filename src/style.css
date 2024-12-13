@@ -11,17 +11,17 @@ body {
 }
 .car_line div {
     text-align: center;
-    width: 28%;
+    width: 30%;
     border-right: 1px solid dimgray;
     padding: 3px 0
 }
 #section, #section_2 {
     width: 30px
 }
-#section_3, #section_4{
+#section_3, #section_4, #secondAuto{
   width: 55px;
 }
-#section_4 {
+#secondAuto {
   font-size: 0.8rem;
 }
 .noCarAvailable {
