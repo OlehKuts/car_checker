@@ -11,7 +11,7 @@ body {
 }
 .car_line div {
     text-align: center;
-    width: 30%;
+    width: 28%;
     border-right: 1px solid dimgray;
     padding: 3px 0
 }
@@ -19,7 +19,7 @@ body {
     width: 30px
 }
 #section_3, #section_4{
-  width: 50px;
+  width: 55px;
 }
 #section_4 {
   font-size: 0.9rem;
