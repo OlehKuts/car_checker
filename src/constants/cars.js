@@ -20,7 +20,7 @@ export const cars = [
     {section: 4, brand: "Hyundai", carNumber: 'ВО4059СР', color: "orange", type: "sedan",  fee: 3000, appNum: 49, carAmount: 1},
     {section: 4, brand: "", carNumber: 'ВО8514ЕВ', color: "white", type: "",  fee: 3000, appNum: 51, carAmount: 1},
     {section: 4, brand: "Toyota", carNumber: 'ВО5386ВВ', color: "navy", type: "hatchback",  fee: 3000, appNum: 56, carAmount: 1},
-    {section: 4, brand: "ВАЗ", carNumber: 'ВО1760АІ', color: "turquoise", type: "hatchback",  fee: 3000, appNum: 58, carAmount: 1},
+    {section: 4, brand: "ВАЗ", carNumber: 'ВО1760АІ', color: "paleTurquoise", type: "hatchback",  fee: 3000, appNum: 58, carAmount: 1},
     {section: 5, brand: "Hyundai", carNumber: 'ВО9542АІ', color: "navy", type: "sedan",  fee: 3000, appNum: 62, carAmount: 1},
     {section: 5, brand: "", carNumber: 'ВО3139ЕІ', color: "white", type: "",  fee: 3000, appNum: 64, carAmount: 1},
     {section: 5, brand: "", carNumber: 'СВ0370ЕО', color: "white", type: "",  fee: 3000, appNum: 66, carAmount: 1},
@@ -44,4 +44,4 @@ export const cars = [
     {section: 8, brand: "", carNumber: 'ВО0643ЕА', color: "white", type: "",  fee: 3000, appNum: 117, carAmount: 1},
 ];
 
-export const authPassword = "osbb8"
+export const _authPassword = "osbb8"

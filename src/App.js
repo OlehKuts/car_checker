@@ -1,4 +1,4 @@
-import {authPassword, cars} from "./constants/cars";
+import { _authPassword, cars} from "./constants/cars";
 import {CarItem} from "./components/CarItem"
 import { useState } from "react";
 import { useLocalStorage } from "./hooks/useLocalStorage";
@@ -18,7 +18,7 @@ export const App = () => {
   }
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (passwordValue === authPassword) {
+    if (passwordValue === _authPassword) {
       setIsAuth(true);
     }
     else{
