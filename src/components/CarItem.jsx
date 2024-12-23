@@ -1,6 +1,15 @@
 import { Icon } from "./Icon";
 export const CarItem = ({ car, isAuth, idx }) => {
-  const { section, brand, carNumber, color = "white", type, fee, appNum } = car;
+  const {
+    section,
+    brand,
+    carNumber,
+    color = "white",
+    type,
+    fee,
+    appNum,
+    note,
+  } = car;
   return (
     <>
       <div
@@ -28,7 +37,7 @@ export const CarItem = ({ car, isAuth, idx }) => {
         </div>
         {isAuth ? (
           <div id={fee > 0 ? "section_4" : "secondAuto"}>
-            {fee > 0 ? `${fee}` : `2-е авто`}
+            {!note > 0 ? `${fee}` : note}
           </div>
         ) : null}
       </div>
