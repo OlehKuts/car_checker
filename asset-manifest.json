@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/car_checker/static/css/main.c5d9949f.css",
-    "main.js": "/car_checker/static/js/main.7ab9c18d.js",
+    "main.js": "/car_checker/static/js/main.430e0efb.js",
     "index.html": "/car_checker/index.html",
     "main.c5d9949f.css.map": "/car_checker/static/css/main.c5d9949f.css.map",
-    "main.7ab9c18d.js.map": "/car_checker/static/js/main.7ab9c18d.js.map"
+    "main.430e0efb.js.map": "/car_checker/static/js/main.430e0efb.js.map"
   },
   "entrypoints": [
     "static/css/main.c5d9949f.css",
-    "static/js/main.7ab9c18d.js"
+    "static/js/main.430e0efb.js"
   ]
 }
