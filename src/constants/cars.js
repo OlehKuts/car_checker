@@ -27,7 +27,7 @@ export const cars = [
     {section: 4, brand: "ВАЗ", carNumber: 'ВО1760АІ', color: "paleTurquoise", type: "hatchback",  fee: 3000, appNum: 58, carAmount: 1},
     {section: 5, brand: "Hyundai", carNumber: 'ВО9542АІ', color: "navy", type: "sedan",  fee: 3000, appNum: 62, carAmount: 1},
     {section: 5, brand: "Opel", carNumber: 'ВО3774ВХ', color: "gold", type: "sedan",  fee: 3000, appNum: 63, carAmount: 1},
-    {section: 5, brand: "", carNumber: 'ВО3139ЕІ', color: "white", type: "",  fee: 3000, appNum: 64, carAmount: 1},
+    {section: 5, brand: "Ford", carNumber: 'АМ1358КЕ', color: "white", type: "sedan",  fee: 3000, appNum: 64, carAmount: 1},
     {section: 5, brand: "", carNumber: 'СВ0370ЕО', color: "white", type: "",  fee: 3000, appNum: 66, carAmount: 1},
     {section: 5, brand: "Peugeot", carNumber: 'ВО6120ВО', color: "gray", type: "hatchback",  fee: 3000, appNum: 68, carAmount: 1},
     {section: 5, brand: "", carNumber: 'ВО8280АМ', color: "white", type: "",  fee: 3000, appNum: 70, carAmount: 2},
