@@ -49,7 +49,7 @@ export const cars = [
     {section: 8, brand: "BMW", carNumber: 'ВО4837СК', color: "steelBlue", type: "sedan",  fee: 3000, appNum: 112, carAmount: 1},
     {section: 8, brand: "", carNumber: 'ВО0643ЕА', color: "white", type: "",  fee: 3000, appNum: 117, carAmount: 1},
     {section: null, brand: "Volkswagen", carNumber: 'ВО3507ЕТ', color: "gray", type: "hatchback",  fee: 0, appNum: null, carAmount: 1, note: "гості"},
-    {section: 8, brand: "Test car", carNumber: 'ВО', color: "white", type: "",  fee: 3000, appNum: 150, carAmount: 1},
+    {section: 8, brand: "Testing car", carNumber: 'ВО', color: "white", type: "",  fee: 3000, appNum: 150, carAmount: 1},
 
 ];
 
