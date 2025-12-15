@@ -19,7 +19,7 @@ export const cars = [
     {section: 3, brand: "", carNumber: 'ВО3367АМ', color: "white", type: "",  fee: 3000, appNum: 42, carAmount: 1},
     {section: 4, brand: "Skoda", carNumber: 'ВО7380ЕМ', color: "black", type: "hatchback",  fee: 3000, appNum: 46, carAmount: 1},
     {section: 4, brand: "Ford", carNumber: 'КЕ4833АВ', color: "white", type: "hatchback",  fee: 1000, appNum: 47, carAmount: 1},
-    {section: 4, brand: "Toyota", carNumber: 'ВН0073ІК', color: "gray", type: "sedan",  fee: 3000, appNum: 48, carAmount: 1},
+    {section: 4, brand: "", carNumber: 'КА0489ОР', color: "white", type: "sedan",  fee: 3000, appNum: 48, carAmount: 1},
     {section: 4, brand: "Hyundai", carNumber: 'ВО4059СР', color: "orange", type: "sedan",  fee: 3000, appNum: 49, carAmount: 1},
     {section: 4, brand: "", carNumber: 'ВО6256АН', color: "white", type: "hatchback",  fee: 3000, appNum: 51, carAmount: 1},
     {section: 4, brand: "Opel", carNumber: 'ВО0668СВ', color: "midnightBlue", type: "sedan",  fee: 3000, appNum: 52, carAmount: 1},
@@ -50,6 +50,7 @@ export const cars = [
     {section: 8, brand: "BMW", carNumber: 'ВО4837СК', color: "steelBlue", type: "sedan",  fee: 3000, appNum: 112, carAmount: 1},
     {section: 8, brand: "", carNumber: 'ВО0643ЕА', color: "white", type: "",  fee: 3000, appNum: 117, carAmount: 1},
     {section: null, brand: "Volkswagen", carNumber: 'ВО3507ЕТ', color: "gray", type: "hatchback",  fee: 0, appNum: null, carAmount: 1, note: "гості"},
+    //
     // {section: 8, brand: "Testing car", carNumber: 'ВО', color: "white", type: "",  fee: 3000, appNum: 150, carAmount: 1},
 ];
 
