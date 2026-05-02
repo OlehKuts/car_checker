@@ -28,7 +28,7 @@ A user enters the license plate number in the search field, and the app instantl
 
 Below is a demonstration of the search process for an authorized user:
 
-![Search Process](./src/assets/SearchingProcess.png)
+![Search Process](./assets/SearchingProcess.png)
 
 ## 🌐 Live Demo
 
