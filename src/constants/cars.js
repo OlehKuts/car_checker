@@ -215,8 +215,8 @@ export const cars = [
   },
   {
     section: 4,
-    brand: "Volkswagen",
-    carNumber: "АР0586СК",
+    brand: "",
+    carNumber: "АЕ5122ОХ",
     color: "white",
     type: "hatchback",
     fee: 3000,
